@@ -1,12 +1,12 @@
 [project]
-name = "lightning-swaps"
+name = "submarine-swap"
 description = "Demonstrates LNSwap's submarine swaps between Stacks and Bitcoin"
 authors = []
 telemetry = true
 cache_dir = "./.cache"
 
-[contracts.stxswap_v10]
-path = "contracts/stxswap_v10.clar"
+[contracts.stx-submarine-swap]
+path = "contracts/stx-submarine-swap.clar"
 clarity_version = 4
 epoch = "latest"
 
